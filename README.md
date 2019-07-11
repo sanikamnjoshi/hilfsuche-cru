@@ -12,7 +12,8 @@
 1. In both hs/frontend and hs/backend, run  
 `npm install`
 2. Start mongo service on your machine
-3. Go to hs/backend/data/db in your terminal, and run  
+3. Create a folder data in hs/backend. Within the data folder, create db.
+Navigate to hs/backend/data/db in your terminal, and run  
 `mongo`  
 This will start your mongo shell. In the shell, type  
 `use posts`  
